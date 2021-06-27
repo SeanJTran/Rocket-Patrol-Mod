@@ -88,11 +88,8 @@ class Play extends Phaser.Scene {
             this.shipExplode(this.ship01);   
         }
         // check key input for restart
-        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyR)) {
-            this.scene.restart();
-        }
-        if (this.gameOver && Phaser.Input.Keyboard.JustDown(keyLEFT)) {
-            this.scene.start("menuScene");
+        if (this.gameOver) {
+            this.scene.start("gameScene");
         }
     }
     checkCollision(rocket, ship) {
