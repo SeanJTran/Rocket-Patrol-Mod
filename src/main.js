@@ -4,7 +4,7 @@ DragonStrike
 6/27/2021
 Project Completion Time: 11-13 hours
 
-Point Breakdown
+Point Breakdown:
 Finishing the Tutorial: an automatic 20 points.
 I finished the tutorial.
 
@@ -15,6 +15,11 @@ Create new artwork for all of the in-game assets (rocket, spaceships, explosion)
 I created new sprites for the rocket and spaceships. I also made a new explosion animation.
 
 TOTAL POINTS: 20 + 60 + 20 = 100
+
+Credits:
+Pixel Font: Made in https://fontmeme.com/pixel-fonts/
+Sounds: Made in https://beepbox.co
+Pixel Sprites: Made in https://www.piskelapp.com
 */
 
 let config = {
