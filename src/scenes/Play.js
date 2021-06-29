@@ -9,7 +9,7 @@ class Play extends Phaser.Scene {
         this.load.image('space', './assets/Dragon2.png');
         this.load.image('spa', './assets/Dragon3.png');
         this.load.image('starfield', './assets/Landscape.png');
-        this.load.image('moun', './assets/mountain.png');
+        this.load.image('moun', './assets/mouns.png');
         // load spritesheet
         this.load.spritesheet('explosion', './assets/blood2.png', {frameWidth: 32, frameHeight: 32, startFrame: 0, endFrame: 9});
       }
@@ -83,7 +83,7 @@ class Play extends Phaser.Scene {
         timerConfig.fixedWidth = 0;
     }
     update() {
-        this.starfield.tilePositionX -= 4;
+        this.starfield.tilePositionX -= 6;
         this.moun.tilePositionX -= 1;
         if (!this.gameOver) {               
             this.p1Rocket.update();         // update rocket sprite
