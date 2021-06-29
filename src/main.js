@@ -2,7 +2,7 @@
 Sean Tran
 DragonStrike
 6/27/2021
-Project Completion Time: 13-14 hours
+Project Completion Time: 13-15 hours
 
 Point Breakdown:
 Finishing the Tutorial: an automatic 20 points.
@@ -13,7 +13,10 @@ I redesigned the game's theme/aesthetic to fantasy with original sounds and draw
 Display the time remaining (in seconds) on the screen (10)
 I created a timer on the top right of the screen.
 
-TOTAL POINTS: 20 + 60 + 10 = 90
+Implement parallax scrolling (10)
+I created a parallax background.
+
+TOTAL POINTS: 20 + 60 + 10 + 10 = 100
 
 Credits:
 Pixel Font: Made in https://fontmeme.com/pixel-fonts/
